@@ -11,3 +11,43 @@ div {
   padding: .5rem;
   text-align: center;
 }
+
+.btn {
+  text-decoration: none;
+  border-radius: 8px;
+  border-width: 3px;
+  padding: .4em;
+  font-size: 1.125rem;
+  color: #fff;
+}
+
+.primary {
+  background-color: #000;
+  border-color: #000;
+}
+
+.subtle {
+  background-color: #666;
+  border-color: #666;
+}
+
+.ghost {
+  background-color: #fff;
+  border-color: #000;
+  color: #000;
+}
+
+.warning {
+  background-color: #f33;
+  border-color: #f33;
+}
+
+.small {
+  font-size: .875rem;
+  padding: .3rem;
+}
+
+.big {
+  font-size: 1.5rem;
+  padding: .75em;
+}
