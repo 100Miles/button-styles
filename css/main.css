@@ -10,44 +10,42 @@ html {
 div {
   padding: .5rem;
   text-align: center;
+  margin: 8px;
 }
 
 .btn {
   text-decoration: none;
-  border-radius: 8px;
   border-width: 3px;
+  border-radius: 8px;
   padding: .4em;
   font-size: 1.125rem;
   color: #fff;
-}
-
-.primary {
   background-color: #000;
   border-color: #000;
 }
 
-.subtle {
+.btn-subtle {
   background-color: #666;
   border-color: #666;
 }
 
-.ghost {
+.btn-ghost {
   background-color: #fff;
   border-color: #000;
   color: #000;
 }
 
-.warning {
+.btn-warning {
   background-color: #f33;
   border-color: #f33;
 }
 
-.small {
+.btn-small {
   font-size: .875rem;
   padding: .3rem;
 }
 
-.big {
+.btn-big {
   font-size: 1.5rem;
   padding: .75em;
 }
