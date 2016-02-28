@@ -10,7 +10,6 @@ html {
 div {
   padding: .5rem;
   text-align: center;
-  margin: 8px;
 }
 
 .btn {
@@ -22,11 +21,20 @@ div {
   color: #fff;
   background-color: #000;
   border-color: #000;
+  display: inline-block;
+}
+
+.btn:hover {
+  background-color: #333;
 }
 
 .btn-subtle {
+  background-color: #ccc;
+  border-color: #ccc;
+}
+
+.btn-subtle:hover {
   background-color: #666;
-  border-color: #666;
 }
 
 .btn-ghost {
@@ -35,17 +43,25 @@ div {
   color: #000;
 }
 
+.btn-ghost:hover {
+  background-color: #000;
+  color: #fff;
+}
+
 .btn-warning {
   background-color: #f33;
   border-color: #f33;
 }
 
+.btn-warning:hover {
+  background-color: #933;
+}
+
+
 .btn-small {
   font-size: .875rem;
-  padding: .3rem;
 }
 
 .btn-big {
   font-size: 1.5rem;
-  padding: .75em;
 }
